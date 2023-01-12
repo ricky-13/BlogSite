@@ -1,0 +1,17 @@
+can use anything for dynamic values and itll convert it to string. BUT CANT USE BOOLEANS OR OBJECTS FOR dynamic
+
+Event object that we get access to whenevr an event occurs const something = (e) => dsfsdfds
+
+use State (is a function) hooks - we make reactive values using state hooks - give it an intial value 
+use array destructing and store values. useState hook returns 2 values. first is the inital value and second is a function. 
+when you need a reactive value, something that might change later we use useState hooks 
+
+we can write javascript inside curly braces. blogs.map lets us pick each item in list one by one 
+
+we use props bcuz it allows us to use data in reusable components and we can define components and can pass different data on different pages (ex. to display different bloglists on different pages)
+
+
+any props that we send into the component are attached to the props and we can access those using props 
+
+
+npx json-server --watch data/db.json --port 8000
