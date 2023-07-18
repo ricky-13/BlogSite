@@ -7,7 +7,7 @@ const Home = () => {
 
     const {data, isPending, error} = useFetch('http://localhost:8000/blogs');
 
-    // console.log('yolo');
+    console.log(data);
 
     return (
         <div className="home">
